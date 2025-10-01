@@ -1,0 +1,36 @@
+{
+	"name": "md-add-title-to-link",
+	"type": "module",
+	"version": "1.0.0",
+	"packageManager": "pnpm@10.16.1",
+	"description": "",
+	"author": "LekoArts",
+	"license": "MIT",
+	"keywords": [],
+	"main": "index.ts",
+	"scripts": {
+		"start": "tsx index.ts",
+		"test": "vitest run",
+		"lint": "eslint",
+		"lint:fix": "eslint --fix"
+	},
+	"dependencies": {
+		"@bomb.sh/args": "^0.3.1",
+		"mdast-util-to-markdown": "^2.1.2",
+		"mdast-util-to-string": "^4.0.0",
+		"remark-frontmatter": "^5.0.0",
+		"remark-parse": "^11.0.0",
+		"remark-stringify": "^11.0.0",
+		"unified": "^11.0.5",
+		"unist-util-visit": "^5.0.0"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "^5.4.1",
+		"@types/mdast": "^4.0.4",
+		"@types/node": "^24.6.0",
+		"eslint": "^9.36.0",
+		"tsx": "^4.20.6",
+		"typescript": "^5.9.2",
+		"vitest": "^3.2.4"
+	}
+}
